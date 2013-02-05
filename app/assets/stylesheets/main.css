@@ -1,0 +1,304 @@
+html {
+    font-family: Helvetica ,sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {
+		font-size: 100%;
+		font-weight: normal;}
+
+h1 {font-size: 40px;}
+
+h2 {font-size: 25px}
+
+.end {font-size:12px}
+
+#container {width: 960px;
+margin: 0 auto; 
+white-space: normal;}
+
+#header {height:70px}
+
+#header h1 {
+    float: left;
+    height: 31px;
+    margin-top: 20px;
+    text-indent: -999em;
+    width: 90px;}
+
+div#header h1 a {
+	    background: url("logo2.png") no-repeat scroll 0 0 transparent;
+	    display: block;
+	    height: 28px; width:100px;
+	    transition: opacity 200ms ease 0s, transform 0s ease 0s;
+	}
+
+div.navigation {padding-top: 24px;
+	    position: relative;
+	}
+
+div.signin {float: right;
+    display: block;
+    margin-left: 4px;
+    padding: 1px;
+    position: relative;
+    text-decoration: none;
+    padding-top: 19px}
+
+div#getstarted {margin-top: 10px;
+		background: url("banner2.png") repeat scroll 0 0 #84BBE5;
+	    border-radius: 4px 4px 4px 4px;
+	    height: 300px;
+	    overflow: hidden;
+	    position: relative;}
+	
+#gsbutton{margin-left:75px; margin-top:210px}
+	
+div.box {margin-top: 40px;
+	    margin-left: auto; 
+	    margin-right: auto;
+	    width: 960px;
+		border-radius: 4px 4px 4px 4px;
+		box-shadow: 0 0 2px #84BBE5, 0 1px 1px #84BBE5;
+		opacity: 1;
+		position: relative;
+		}
+		
+div#info div.why {
+		    border-bottom: 1px solid #EBEBEB;
+		    height: 19px;
+		    margin: 0 60px;
+		    padding: 50px 0 29px;
+		    position: relative;
+		}
+
+div#info div.why span {
+		    color: #333333;
+		    display: block;
+		    font-family: "proxima-nova",Helvetica,sans-serif;
+		    font-size: 26px;
+		    font-weight: 600;
+		    height: 28px;
+		    letter-spacing: 1px;
+		    position: relative;
+		    top: -6px;
+		    width: 400px;
+		}
+
+div#moreinfo {background: none repeat scroll 0 0 #FFFFFF}
+
+a {
+    color: #008CDD;
+    cursor: pointer;
+    text-decoration: none;}
+
+/* MOREINFO KEY  */
+
+div#info div.part {
+    margin: 0 60px;
+    padding: 45px 0;
+    position: relative;
+}
+
+div#info div.part div.title {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+div#info div.part h2 {
+    color: #313131;
+    font-family: "proxima-nova",arial,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 9px;
+    margin-top: -3px;
+}
+
+div#info div.part div.title p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    width: 360px;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+
+div#info div.part.odd {
+    background: -moz-linear-gradient(0deg, #FFFFFF, #BFD6ED) repeat scroll 0 0 #CEE1F4;
+    border: 0 none;
+    margin: 0;
+    padding: 1px 0;
+}
+
+div#info div.part.odd div.inner {
+    background: -moz-linear-gradient(0deg, #FFFFFF, #F7FBFF) repeat scroll 0 0 #FAFCFF;
+    padding: 0 60px;
+}
+
+a {
+    color: #008CDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* A THOROUGH SCREENING PROCESS  */
+
+div#info div.part.screeningprocess {
+    padding: 50px 0; height:210px; margin-top:20px;
+}
+
+div#info div.part.screeningprocess div.title {
+    margin-left: 460px;
+    padding-top: 3px;
+}
+
+div#info div.part.screeningprocess img {
+    left: 0;
+    position: absolute;
+    top: 25px;
+}
+
+/* SHARE IT ANYWHERE */
+
+div#info div.part.shareit {
+    height: 320px;
+    margin: 0px;
+    padding: 1px 0 1px 1px; 
+}
+
+div#info div.part.shareit div.inner {
+    height: 320px;
+}
+
+div#info div.part.shareit div.title {
+    height: 80px;
+    padding-top: 65px; padding-left:10px;
+}
+
+div#info div.part.shareit h2 {
+    margin-bottom: 10px;
+}
+
+div#info div.part.shareit img {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+
+/*SECURITY IS OUR PRIORITY */
+
+div#info div.part.security {
+    height: 320px;
+    padding: 1px 0 0;
+}
+
+div#info div.part.security img {
+    left: 0px;
+    position: absolute;
+    top: 50px;
+}
+
+div#info div.part.security div.title {
+    margin-left: 460px; margin-top:90px;
+}
+
+div#info div.part.security h2 {
+    margin-bottom: 10px;
+}
+
+/*TRANSPARENT AND LIABLE */
+
+div#info div.part.transparent {
+    height: 320px;
+    margin: 0;
+    padding: 1px 0 1px 1px;
+}
+
+div#info div.part.transparent div.inner {
+    height: 320px;
+}
+
+div#info div.part.transparent div.title {
+    height: 80px;
+    padding-top: 90px; padding-left:10px;
+}
+
+div#info div.part.transparent h2 {
+    margin-bottom: 10px;
+}
+
+div#info div.part.transparent img {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+
+div#badgecontainer{height: 350px; width:300px; left:50%; top: 50%; margin:0 auto;}
+
+div#badge {
+	    background: url("badge.png") no-repeat scroll 0 0 transparent;
+	    display: block; height: 300px; width:300px; left:50%; top: 50%; margin:0 auto;
+	}
+
+div#badge h1{color:#FFFFFF; font-size:14px; padding-top: 135px;; text-align:center;
+		}
+
+div#apply {font-size: 14px; font: Helvetica;text-align:center; position:relative; margin-top:20px}
+
+a:link {color: #84BBE5; text-decoration:none;}
+a:visited {color: #84BBE5; text-decoration:none;}
+a:hover {color: #BADAF2; text-decoration:none;}
+a:active {color:white; text-decoration:none;}
+
+ul li
+{
+background-image: url(sqpurple.gif);
+background-repeat: no-repeat;
+background-position: 0px 5px;
+padding: 10px;
+}
+
+.process {font-size:25px; padding-top: 4px; border-radius: 4px 4px 4px 4px;
+box-shadow: 0 0 2px #84BBE5, 0 0px 1px #84BBE5; width:260px; height:30px}
+
+.process2 {font-size:15px; padding-top: 15px; border-radius: 4px 4px 4px 4px;
+box-shadow: 0 0 2px #84BBE5, 0 0px 1px #84BBE5; width:150px; height:30px}
+
+
+label.hi{
+width: 20em;
+float: left;
+text-align: left;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{
+margin-left: 4.5em;
+}
+
+fieldset
+{padding-top: 0px;
+border: .5px solid #C0C0C0;
+}
+
+/* FOOTER */
+
+#footer {
+		color: #84BAE5; 
+		font-family: helvetica; 
+		font-size: 8pt; 
+		margin-top:8px}
+
+
+#footer2 {
+	color: #84BAE5; 
+	font-family: helvetica; 
+	font-size: 8pt;
+	position:absolute; width:960px; bottom: 0px}
+		
+#footer span {display:block;float:right;}
+#footer2 span {display:block;float:right;}

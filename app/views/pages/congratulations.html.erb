@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Scout</title>
+<link rel="icon" type="image/ico" href="../../images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="../../stylesheets/main.css"/>
+<link rel="image_src" type="image/png" href="../../images/placeholder.png"/>
+<link type="image/png" rel="image_src" href="logo.png" >
+</head>
+
+<body>
+<div id= "container">
+<div id="header">
+	<h1>
+		<%=link_to "Scout", '/member' %> </h1>
+<div id="navigation">
+	<div class="signin"> 
+	<%=link_to image_tag("signout.png", :border => 0), destroy_member_session_path, :method => :delete %>
+			</div> </div> </div> 
+			
+<h1> Congratulations! </h1>
+<p> You're on your way to getting a Scout Badge! We'll be in touch shortly. </p>
+
+
+<div id="footer2" > 
+		contact@heyscout.com <span> &copy 2013</span> </div>
+</div>
+</body>
+</html>

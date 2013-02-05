@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Scout</title>
+<link rel="icon" type="image/ico" href="../../images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="../../stylesheets/main.css"/>
+<link rel="image_src" type="image/png" href="../../images/placeholder.png"/>
+<link type="image/png" rel="image_src" href="logo.png" >
+</head>
+
+<body>
+<div id= "container">
+<div id="header">
+	<h1>
+		<%=link_to "Scout", '/member' %> </h1>
+<div id="navigation">
+	<div class="signin"> 
+	<%=link_to image_tag("signout.png", :border => 0), destroy_member_session_path, :method => :delete %>
+			</div> </div> </div> 
+</br></br>	
+<h1> Guidelines for the Scout Process</h1>
+</br>
+<ul> <li> You will be charged, independent of whether you pass or fail the process. </li>
+<li> Think back. Are you sure you have a clean criminal history (meaning no misdemeanors or felonies)? If we encounter any evidence that you've committed a crime, you will lose the $25 fee and the opportunity to receive the badge. </li> 
+<li> Your personal information is extremely important to us. If you have qualms about submitting it online, you can submit it manually if you'd like. </li>
+<li> Because our screening process is extremely thorough, you should expect to hear back in three days. </li>
+<li> You have the right to file a dispute if you think we found something on your record report that might be inaccurate. </li>
+</ul>
+
+</br></br> <center> <div class="process">
+<%= link_to "Begin the Process", '/application'%></span> </center>
+		
+<div id="footer2" > 
+		contact@heyscout.com <span> &copy 2013</span> </div>
+</div>
+</body>
+</html>
